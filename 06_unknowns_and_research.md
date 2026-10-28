@@ -32,14 +32,14 @@ Provided papers and what they gave:
 - **Papamoschou & Rostamimonjezi 2010** ✓ — core length vs velocity ratio; noise source location.
 - Textbooks: Anderson (compressible flow), Versteeg & Malalasekera (CFD) ✓.
 
-**Still missing (not provided):**
-- PhD thesis "Triangular Tabs for Supersonic Jet Control" (Arun Kumar P., 2013, IIT Kanpur) — the only source that might contain the **Mach 1.4 nozzle drawing**. None of the provided papers document it.
+**Still missing / not applicable:**
+- No source in the provided set documents the Mach 1.4 nozzle's cone angles or axial lengths. Ref. 89 in the 2014 paper (a PhD thesis) is cited only for uncertainty-calculation procedures, not nozzle geometry; I cannot confirm it contains or would resolve the Mach 1.4 nozzle details. Treat as unverified.
 - Zaman 1999, Samimy 1993, Bradbury & Khadem 1975 (tab mechanism/optimization) — optional.
 
-**Conclusion:** the Mach 1.4 nozzle geometry (cone angles, lengths) is undocumented in all available sources. We proceed with the 7° semi-divergence inference and document it as an assumption. If the thesis becomes available, replace the assumed angles and re-run sensitivity.
+**Conclusion:** the Mach 1.4 nozzle geometry (cone angles, lengths) is undocumented in all available sources. We proceed with the 7° semi-divergence inference (from the Mach 2 nozzle, same lab) and document it as an assumption with a sensitivity note. No external document is known to resolve it.
 
 - **2014 paper (Ref 23) now available** in `Downloads/Project_Official/`: Kumar & Rathakrishnan, "Triangular tabs for supersonic jet mixing enhancement," Aeronaut. J. 118(1209), 1245–1278 (2014). Gave: same IIT Kanpur facility (settling chamber 300×600 mm, wire mesh, diffuser), and a Mach 2.0 C-D nozzle with semi-divergence angle 7°, D* = 10.02, De = 13.02, expansion length 12.22 mm, lip 5 mm, tabs 1 mm brass / 4 mm long. **No Mach 1.4 nozzle details and no coaxial setup** — the 2020 paper's nozzle is different.
-- **Highest-value remaining source:** PhD thesis "Triangular Tabs for Supersonic Jet Control" (Arun Kumar P., 2013, IIT Kanpur) — likely contains the nozzle drawing for all nozzles used in the lab (including Mach 1.4). Still not freely available online.
+- **No remaining source identified for Mach 1.4 nozzle geometry.** Ref. 89 in the 2014 paper cites a PhD thesis (Arun Kumar P., 2013, IIT Kanpur) only for uncertainty-calculation procedures. I cannot confirm it contains nozzle drawings. Treat as unverified; do not depend on it.
 - **2019 paper (Ref 29):** Kumar, Aileni & Rathakrishnan, "Impact of tab location relative to the nozzle exit on the shock structure of a supersonic jet," Phys. Fluids 31(7), 076104 (2019) — same facility; may use the Mach 1.4 or Mach 2 nozzle. Not yet obtained.
 - 2018 fluidic injectors paper (Ref 30) and Papamoschou 1997 (Ref 2) also not obtained.
 
