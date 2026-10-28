@@ -1,0 +1,29 @@
+# OpenFOAM generated mesh and results
+**/constant/polyMesh/
+**/[0-9]*.[0-9]*/
+**/[1-9][0-9]*/
+**/postProcessing/
+**/dynamicCode/
+
+# Papers and large binaries
+**/*.pdf
+**/*.stl
+**/*.vtk
+**/*.vtp
+**/*.vtu
+
+# Python
+__pycache__/
+*.py[oc]
+.venv/
+venv/
+*.egg-info/
+build/
+dist/
+
+# Editors / OS
+.DS_Store
+*.swp
+*~
+.idea/
+.vscode/
